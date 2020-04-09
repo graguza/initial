@@ -25,3 +25,14 @@ How to generate self-signed CA and SSL certificates.
    # password - certificate password
    # cn - certificate comma separated common names e.g. CN=computername.domain.com, CN=localhost, CN=computername
    ```
+
+## Install Certificates (Windows)
+
+* Open a Snap-in window
+  * _Start_ -> _Run_ -> Type _mmc_
+  * _Add/Remove Snap-in..._ (Ctrl-M)
+  * Add a Certificates snap-in for _My user account_
+* Expand the _Trusted Root Certification Authorities_ -> _Certificates_ node
+* Right click the Certificates folder and choose _All Tasks_ –> _Import_
+* Browse folders to find certificate you want to install.
+* Import the certificate and click through the remaining windows and finish.
