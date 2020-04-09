@@ -6,6 +6,8 @@ It requires following:
 * makecert.exe
 * pvk2pfx.exe
 
+Both makecert and pvk2pfx are part of [Windows 10 SDK](https://developer.microsoft.com/pl-pl/windows/downloads/windows-10-sdk/).
+
 How to generate self-signed:
 
 * CA Certificate - [see CreateCARoot.bat](/certificates/CreateCARoot.bat)
